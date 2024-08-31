@@ -4,10 +4,10 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #0f0f0f;
+    background-color: #1a1a2e;
     font-family: 'Arial', sans-serif;
-    color: #00ff00;
-    text-shadow: 0 0 10px #00ff00;
+    color: #e94560;
+    text-shadow: 0 0 10px #e94560;
 }
 
 .game-container {
@@ -36,8 +36,8 @@ h1 {
 .card {
     width: 100px;
     height: 100px;
-    background-color: #222;
-    border: 2px solid #00ff00;
+    background-color: #16213e;
+    border: 2px solid #e94560;
     border-radius: 10px;
     cursor: pointer;
     display: flex;
@@ -49,22 +49,22 @@ h1 {
 }
 
 .card.flipped, .card.show {
-    background-color: #00ff00;
-    color: #222;
+    background-color: #e94560;
+    color: #16213e;
     transform: rotateY(180deg);
 }
 
 .card.matched {
-    background-color: #007700;
-    border-color: #007700;
+    background-color: #0f3460;
+    border-color: #0f3460;
     cursor: default;
 }
 
 button {
-    background-color: #00ff00;
+    background-color: #e94560;
     border: none;
     padding: 10px 20px;
-    color: #222;
+    color: #16213e;
     font-size: 1em;
     cursor: pointer;
     border-radius: 5px;
@@ -72,5 +72,5 @@ button {
 }
 
 button:hover {
-    background-color: #007700;
+    background-color: #0f3460;
 }
